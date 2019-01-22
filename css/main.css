@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+
+body {
+  background: #efefef;
+  font-family: "Work Sans", sans-serif;
+  margin: 10px 20px;
+}
+
+.container {
+  display: flex;
+}
+#contact-con {
+  display: inline-block;
+}
+
+h1 {
+  margin-left: 32px;
+}
+
+#contact {
+  width: 100%;
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+ol li {
+  line-height: 1.5;
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  font-size: 18px;
+  display: block;
+}
+
+.btn-cont {
+  margin-left: 63px;
+}
+.btn-cont button {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 3px;
+}
+
+.search {
+  margin: 90px 0px 0px 250px;
+}
+
+.lookup {
+  margin-left: 20px;
+}
+
+.search input[type="text"] {
+  width: 250px;
+  height: 22px;
+  padding: 5px;
+}
+
+.search button {
+  font-size: 18px;
+  padding: 5px;
+}
+
+#search-result > ol li {
+  line-height: 1.5;
+  font-size: 1.6em;
+  border: 1px solid #ddd;
+  background-color: #f6f6f6;
+  padding: 12px;
+  font-size: 18px;
+}
+
+form .revoke {
+  margin: 10px 0px 0px 40px;
+}
